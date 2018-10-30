@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: white;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+h2,p {
+    font-size: medium;
+}
+
+
+#band {
+text-align: left;
+}
+
+
+/*radio */
+.radio {
+    text-align: left;
+}
+
+/*radio end */
+
+/*button*/
+#button {
+box-shadow: -2px 5px lightgrey;
+}
+
+#button:hover {
+color: black; 
+}
+/*button end*/
+
+#border {
+border: 1px solid black;
+padding: 30px;
+text-align: center;
+border-radius: 10px;
+}
+
+.font {
+    font-size: medium;
+    text-align: center;
+}
+
+form {
+text-align: left;
+}
+
+/*-----SIDEBAR--------------*/
+#sidebar {
+   
+    height: 240px; 
+    width: 120px; 
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    background-color: grey; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-left: 20px;
+    color: white;
+}
+
+@media screen and (max-height: 450px) {
+    #sidebar {padding-top: 15px;}
+  
+}
+
+.bannertext {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+
+
+/*--------------------------*/
+
+
+
+
+
+
+
+

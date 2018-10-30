@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+
+  <script type="text/javascript" src="javascript.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+ 
+</head>
+
+<body>
+
+<div class="header">
+<img src="header_bg.gif" style="width: 100%">
+</div>
+
+
+
+<div id="band" class="container text-center">
+  
+  <div class="row">
+
+    <div class="col-sm-6">
+      <h1>Welcome to shape calculator.</h1>
+      <p><b>Shape Calculator is an interactive web application. To the right you will
+		find the 3 step application. Follow the instructions in each step.
+		Clicking cancel will take you back to step 1. Enjoy!</b></p>
+      <br>
+
+      <p>A small river named Duden flows by their place and supplies it with the
+		necessary regelialia. It is a paradisematic country, in which roasted parts of
+		sentences fly into your mouth.</p><br>
+
+		<p>Even the all-powerful Pointing has no control about the blind texts it is an
+			almost unorthographic life One day however a small line of blind text by the
+			name of Lorem Ipsum decided to leave for the far World of Grammar. The
+			Big Oxmox advised her not to do so, because there were thousands of bad
+			Commas</p>
+    </div>
+
+    <div class="col-sm-4" id="border">
+		<h1 class="font" id="outerFont"><b>Step 1: Select your shape.</b></h1><br>
+		<p class="font" id="innerFont">Please select the shape that you would 
+		like to calculate the area of and press the button "Go to step 2"</p><br>
+			
+		<form name="form" action="" method="POST" id="form">
+			<input type="radio" name="radio" id="rectangle">Rectangle<br>
+			<input type="radio" name="radio" id="circle" >Circle<br>
+			<input type="radio" name="radio" id="square" >Square<br>
+			<input type="radio" name="radio" id="ellipse">Ellipse<br><br>
+					
+			<button type="button" class="btn btn-default" id="button1" onclick="validate()">Got to step 2:</button>
+			<button type="reset" class="btn btn-default" id="button2"  onclick="clear()">Cancel</button> 
+		</form>
+
+    </div>
+
+
+      
+
+
+
+    <div class="col-sm-2">
+    	<div id="sidebar">
+    	
+    	<p class="bannertext">120 X 240 Ad</p>
+    	<p class="bannertext">(Vertical Banner)</p>
+    	</div>	
+
+   	</div>	
+   
+
+
+
+
+
+
+
+  </div>
+</div>
+
+
+
+
+</body>
+</html>
